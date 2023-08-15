@@ -6,19 +6,15 @@ import cinema from "../assets/json/dummyData";
 const AllMovies = () => {
   return (
     <Danas>
-    
-
       {cinema.map((eachmovies) => (
         <EachMovie
         img={eachmovies.img}
           match={eachmovies.match}
           rated={eachmovies.rated}
           seasons={eachmovies.seasons}
-          resolution={eachmovies.resolution}
+          resolution={eachmovies.resolution}x
         />
       ))}
-
-
     </Danas>
   );
 };
