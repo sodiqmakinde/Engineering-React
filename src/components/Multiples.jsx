@@ -11,6 +11,7 @@ const Multiples = () => {
 Effective delegation involves choosing the right person for the job. Choosing the wrong person could set them up for failure. Choosing the right person can lead to success—for you and them. 
 But how can you tell who the right person or wrong person is to handle a task? What factors should you consider in your decision? Learn the answers to these questions throughout the following lesson. "
       />
+      
       <ReuseableHeading
         heading="Consider This"
   

@@ -1,10 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 @import "./variables";
 // @import "./main";
 * {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
-
+img {
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
 .testing {
   margin-bottom: 30px;
   background-color: blue;
@@ -24,7 +38,7 @@ h3 {
 .mb-5 {
   margin-bottom: 50px;
 }
-.flex{
+.flex {
   display: flex;
 }
 .heading_use {
@@ -40,5 +54,23 @@ h3 {
   }
   p {
     font-size: 20px;
+  }
+}
+
+.scale_explain {
+  border: 1px solid;
+  width: 30%;
+  padding: 20px;
+  transform: scale(1);
+  transition: 0.5s;
+  p {
+    display: none;
+  }
+  &:hover {
+    transform: scale(1.5);
+    background-color: aqua;
+    p {
+      display: block;
+    }
   }
 }
