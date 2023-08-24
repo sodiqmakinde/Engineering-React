@@ -5,8 +5,6 @@ const Neflix = () => {
   return (
     <section>
       <AllMovies />
-
-     
     </section>
   );
 };

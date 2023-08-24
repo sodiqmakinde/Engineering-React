@@ -6,6 +6,7 @@ const Cinema = [
     match: 75,
     resolution: "4K",
     seasons: 3,
+    genre: ["Comedy", "Drama", "Adventure"]
   },
   {
     id: 2,

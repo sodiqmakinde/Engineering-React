@@ -19,6 +19,11 @@ const EachMovie = (props) => {
           <h5>{props.seasons} seasons</h5>
           <span>{props.resolution}</span>
         </div>
+        <div className="genres">
+          {props.items.map((genre) => (
+            <span>{genre}</span>
+          ))}
+        </div>
       </div>
     </Movies>
   );
@@ -27,7 +32,13 @@ const EachMovie = (props) => {
 export default EachMovie;
 
 let Movies = styled.div`
-//   width: 30%;
+  //   width: 30%;
+  .genres {
+    span {
+      border: 1px solid black;
+      margin: 5px 10px;
+    }
+  }
   img {
     width: 100%;
   }
