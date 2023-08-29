@@ -123,10 +123,11 @@ export default Carousel;
 
 let Caro = styled.div`
   margin-top: 100px;
+  font-family: var(--Oshodi);
   .eachCard {
     margin-bottom: 20px;
     margin: 5px;
-    font-family: var(--Lekki);
+
     background-color: hsl(300, 43%, 22%);
     color: white;
     padding: 30px;
